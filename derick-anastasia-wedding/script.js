@@ -190,7 +190,8 @@ document.addEventListener('DOMContentLoaded', () => {
     photoOrder.forEach((label, i) => {
       const item = document.createElement('div');
       item.className = 'photo-badge';
-      item.innerHTML = `<span class="badge-num">${i}</span><span>${label}</span>`;
+      const num = String(i + 1).padStart(2, '0');
+      item.innerHTML = `<span class="badge-num">${num}</span><span>${label}</span>`;
       photoBadgeGrid.appendChild(item);
     });
   }
