@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Derick & Anastasia — We're Getting Married</title>
+<meta name="description" content="Join Derick and Anastasia as they say I do — Saturday, 15 August 2026, ICGC Kings Temple, Takoradi.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500;1,600&family=Cinzel:wght@500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="monogram"><span>D&amp;A</span></div>
+  <p id="loader-text">Loading invitation…</p>
+</div>
+
+<!-- ============ TOP BRAND BAR ============ -->
+<header id="topBar">
+  <a href="#top" class="monogram-sm">D&amp;A</a>
+  <button id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<!-- ============ TAB NAV (structure inspired by reference) ============ -->
+<nav id="tabNav">
+  <div class="tab-scroll" id="navLinks">
+    <a href="#program" class="tab-link active">Program</a>
+    <a href="#clergy" class="tab-link">Clergy</a>
+    <a href="#mcs" class="tab-link">MCs</a>
+    <a href="#gift-table" class="tab-link">Gift Table</a>
+    <a href="#photography" class="tab-link">Photography</a>
+    <a href="#gallery" class="tab-link">Gallery</a>
+    <a href="#guestbook" class="tab-link">Guest Messages</a>
+  </div>
+</nav>
+
+<div class="page">
+  <div class="paper-texture"></div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <img src="assets/images/hero-main.jpg" alt="Derick and Anastasia together" fetchpriority="high">
+    <div class="hero-gradient"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">We're getting married</div>
+      <h1 class="hero-names">Derick<span class="hero-amp">&amp;</span>Anastasia</h1>
+      <div class="hero-sub">15 August 2026 · 12:30 PM<br><b>ICGC Kings Temple</b>, Takoradi</div>
+      <a href="#program" class="btn-explore">
+        Explore Our Wedding
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </a>
+    </div>
+    <div class="scroll-cue"></div>
+  </section>
+
+  <!-- ============ COUNTDOWN ============ -->
+  <section class="section-tight" data-reveal>
+    <div class="eyebrow" style="text-align:center">The Countdown Begins</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">Until we say "I do"</h2>
+    <div class="countdown" id="countdown">
+      <div class="count-card"><span class="count-num" id="cd-days">00</span><span class="count-label">Days</span></div>
+      <div class="count-card"><span class="count-num" id="cd-hours">00</span><span class="count-label">Hours</span></div>
+      <div class="count-card"><span class="count-num" id="cd-mins">00</span><span class="count-label">Mins</span></div>
+      <div class="count-card"><span class="count-num" id="cd-secs">00</span><span class="count-label">Secs</span></div>
+    </div>
+  </section>
+
+  <!-- ============ WEDDING DETAILS ============ -->
+  <section class="section bg-deep" id="details" data-reveal>
+    <div class="eyebrow" style="text-align:center">Save the Date</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">Wedding Details</h2>
+    <div class="detail-grid">
+      <div class="detail-card">
+        <div class="detail-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg></div>
+        <div><h3>The Date</h3><p>Saturday, 15th August 2026</p></div>
+      </div>
+      <div class="detail-card">
+        <div class="detail-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <div><h3>The Time</h3><p>Ceremony begins at 12:30 PM</p></div>
+      </div>
+      <div class="detail-card">
+        <div class="detail-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s7-7.5 7-12a7 7 0 10-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <div>
+          <h3>The Venue</h3>
+          <p>ICGC Kings Temple, Takoradi<br><span style="font-size:12px; opacity:.8;">(Behind Ajumakoman Press Ltd)</span></p>
+          <a class="map-btn" href="https://www.google.com/maps/search/?api=1&query=ICGC%20Kings%20Temple%20Takoradi" target="_blank" rel="noopener">Get Directions
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROGRAM ============ -->
+  <section class="section" id="program" data-reveal>
+    <div class="eyebrow" style="text-align:center">The Heart of the Day</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">Programme Outline</h2>
+    <div class="timeline">
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Arrival of Guests</h3><span>Musical Interlude</span></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Praise &amp; Worship</h3></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Bridal Procession</h3></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Exchange of Vows &amp; Rings</h3></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Signing of the Register</h3><span>Marriage Certificate</span></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Offertory</h3></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Song Ministration</h3></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Sermon</h3></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Introduction of the Couple</h3></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Holy Communion</h3></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Benediction</h3></div></div>
+      <div class="t-row" data-reveal><div class="t-time">—</div><div class="t-dot"></div><div class="t-event"><h3>Wedding March</h3></div></div>
+    </div>
+  </section>
+
+  <!-- ============ CLERGY ============ -->
+  <section class="section bg-deep" id="clergy" data-reveal>
+    <div class="eyebrow" style="text-align:center">Officiating</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">Clergy</h2>
+    <div class="clergy-grid">
+      <div class="clergy-card featured">
+        <div class="clergy-icon">✚</div>
+        <h3>Rev. Alexander Botchway</h3>
+        <span class="clergy-role">Officiating Minister</span>
+      </div>
+      <div class="clergy-card">
+        <div class="clergy-icon">✚</div>
+        <h3>Rev. Samuel Opong-Acheampong</h3>
+        <span class="clergy-role">Officiating Minister</span>
+      </div>
+    </div>
+  </section>
+
+  ============ MCs ============
+  <section class="section bg-deep" id="mcs" data-reveal>
+    <div class="eyebrow" style="text-align:center">Keeping The Day Moving</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">Master of Ceremony</h2>
+    <div class="icon-grid">
+      <div class="icon-card"><div class="icon-emoji">🎙️</div><span>— Add Name —</span></div>
+    </div>
+  </section>
+
+  <!-- ============ GIFT TABLE ============ -->
+  <section class="section" id="gift-table" data-reveal>
+    <div class="eyebrow" style="text-align:center">With Love</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">Gift Table Attendant</h2>
+    <div class="icon-grid">
+      <div class="icon-card"><div class="icon-emoji">🎁</div><span>— Edwina Naa Lamley  Lamptey —</span></div>
+    </div>
+
+    <div class="momo-card" data-reveal>
+      <div class="momo-num">0540 698 365</div>
+      <div class="momo-sub">Anastasia Alorzuke · Mobile Money</div>
+    </div>
+    <p style="text-align:center; margin-top:14px; font-size:13px;">Your love &amp; blessings mean everything to us. Thank you 💛</p>
+  </section>
+
+  <!-- ============ ORDER OF PHOTOGRAPHY ============ -->
+  <section class="section bg-deep" id="photography" data-reveal>
+    <div class="eyebrow" style="text-align:center">Group Photos</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">Order of Photography</h2>
+    <p style="text-align:center; margin-top:10px; font-size:13px;">Kindly stay close by and listen for your group to be called.</p>
+    <div class="photo-badge-grid" id="photoBadgeGrid">
+      <!-- populated by script.js -->
+    </div>
+  </section>
+
+  <!-- ============ GALLERY (carousel) ============ -->
+  <section class="section" id="gallery" data-reveal>
+    <div class="eyebrow" style="text-align:center">In Frame</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">Couple Gallery</h2>
+    <div class="carousel-wrap">
+      <button class="car-arrow car-prev" id="carPrev" aria-label="Previous">‹</button>
+      <div class="carousel-track" id="carouselTrack"><!-- populated by script.js --></div>
+      <button class="car-arrow car-next" id="carNext" aria-label="Next">›</button>
+    </div>
+  </section>
+
+  <div id="lightbox">
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+    <img id="lbImg" src="" alt="">
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
+  </div>
+
+  <!-- ============ MEMORIES (disabled for now) ============
+  <section class="section bg-deep" id="memories" data-reveal>
+    <div class="eyebrow" style="text-align:center">From Our Guests</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">Share Your Memories</h2>
+    <label class="upload-box" id="uploadBox">
+      <input type="file" id="memoryUpload" accept="image/*,video/*" multiple hidden>
+      <div class="upload-icon">📤</div>
+      <div class="upload-text">Click to upload photos or videos</div>
+      <div class="upload-sub">Drag and drop or click to select files</div>
+    </label>
+    <div class="upload-preview" id="uploadPreview"></div>
+    <p style="text-align:center; margin-top:12px; font-size:12px; opacity:.7;">Uploads are stored in your browser for this preview — connect a storage service (e.g. Cloudinary) to collect them for real.</p>
+  </section>
+  ============================================================ -->
+
+  <!-- ============ GUEST MESSAGES ============ -->
+  <section class="section" id="guestbook" data-reveal>
+    <div class="eyebrow" style="text-align:center">Leave A Note</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">Guest Messages</h2>
+    <p style="text-align:center; margin-top:10px;">Leave a word of love for Derick &amp; Anastasia — every message will be kept and cherished.</p>
+
+    <form class="guest-form" id="guestForm">
+      <input type="text" id="gName" placeholder="Your Name" required>
+      <textarea id="gMessage" rows="3" placeholder="Share your wishes and memories…" required></textarea>
+      <button type="submit" class="btn-submit">Post Message</button>
+      <p class="rsvp-note" id="guestNote">Thank you — your message has been sent to the couple 💛</p>
+    </form>
+
+    <div class="example-msg" data-reveal>
+      <span class="example-tag">Need an idea? Something like…</span>
+      <p class="example-text">"Wishing you both a lifetime of love, laughter, and endless adventures together. Congratulations, Derick &amp; Anastasia — may your home always be full of joy!"</p>
+    </div>
+
+    <div class="message-list" id="messageList"><!-- populated by script.js --></div>
+  </section>
+
+  <!-- ============ RSVP (disabled for now) ============
+  <section class="section bg-deep" id="rsvp" data-reveal>
+    <div class="eyebrow" style="text-align:center">Kindly Respond</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">RSVP</h2>
+    <p style="text-align:center; margin-top:10px;">We can't wait to celebrate with you — please let us know if you'll be joining us.</p>
+    <form class="rsvp-form" id="rsvpForm">
+      <div class="field"><label for="name">Full Name</label><input type="text" id="name" name="name" required placeholder="Your name"></div>
+      <div class="field"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" required placeholder="e.g. 024 000 0000"></div>
+      <div class="field"><label for="guests">Number of Guests</label><input type="number" id="guests" name="guests" min="1" max="10" value="1"></div>
+      <div class="field">
+        <label>Will You Attend?</label>
+        <div class="attend-toggle" id="attendToggle">
+          <button type="button" data-value="Joyfully Accepts" class="active">Joyfully Accept</button>
+          <button type="button" data-value="Regretfully Declines">Regretfully Decline</button>
+        </div>
+        <input type="hidden" name="attendance" id="attendance" value="Joyfully Accepts">
+      </div>
+      <div class="field"><label for="message">Message for the Couple</label><textarea id="message" name="message" rows="3" placeholder="Leave a note of love…"></textarea></div>
+      <button type="submit" class="btn-submit">Send RSVP</button>
+      <p class="rsvp-note" id="rsvpNote">Thank you — your RSVP has been received. We can't wait to see you! 💛</p>
+    </form>
+  </section>
+  ============================================================ -->
+
+  <!-- ============ LOVE STORY ============ -->
+  <section class="section" id="story" data-reveal>
+    <div class="eyebrow" style="text-align:center">Our Journey</div>
+    <h2 class="h-section" style="text-align:center; margin-top:6px;">A Love Story</h2>
+    <figure class="story-frame" data-reveal><img src="assets/images/about-1.jpg" alt="Derick and Anastasia portrait"></figure>
+    <div class="story-list">
+      <div class="story-item" data-reveal><div class="story-mark">1</div><div><h3>How We Met</h3><p>Two lives, quietly drawn together the beginning of something lasting.</p></div></div>
+      <div class="story-item" data-reveal><div class="story-mark">2</div><div><h3>The First Date</h3><p>A conversation that never quite ended.</p></div></div>
+      <div class="story-item" data-reveal><div class="story-mark">3</div><div><h3>The Proposal</h3><p>A question asked, and answered, with certainty.</p></div></div>
+      <div class="story-item" data-reveal><div class="story-mark">4</div><div><h3>The Wedding Day</h3><p>And now, the day we've been walking toward together.</p></div></div>
+    </div>
+  </section>
+
+  <!-- ============ VERSE ============ -->
+  <section class="section bg-purple" data-reveal>
+    <div class="verse-block">
+      <div class="divider"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 3l2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3z"/></svg></div>
+      <p class="verse-text">"It was but a little that I passed from them, but I found him whom my soul loveth: I held him, and would not let him go, until I had brought him into my mother's house, and into the chamber of her that conceived me."</p>
+      <div class="verse-ref">Song of Solomon 3:4</div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="monogram"><span>D&amp;A</span></div>
+    <h3 class="script" style="font-size:22px; margin-bottom:8px;">Thank You</h3>
+    <p>To our family and friends — thank you for being part of our story and for celebrating this day with us.</p>
+    <p class="made-with" style="margin-top:22px;">Made with ❤ for Derick &amp; Anastasia</p>
+  </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
