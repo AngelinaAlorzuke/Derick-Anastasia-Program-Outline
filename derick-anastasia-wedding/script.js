@@ -181,10 +181,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const photoOrder = [
       "Officiating Ministers", "Counselors", "Groom's Parents", "Both Parents",
       "Bride's Parents", "Bride's Family", "Both Family", "Groom's Family",
-      "Bride's Siblings", "Groom's Siblings", "NMAH Lab Staff", "NMAH Staff",
+      "Bride's Siblings", "Groom's Siblings", "NMAH Management & Staff", 
       "GRO Officials Staff & Sub-Contractors", "Global Evangelical Church Members",
-      "Global Evangelical Media Team & VOG (Voice of Grace)", "King's Temple Members",
-      "King's Choir", "3:16", "Broken Chains", "Wonder Breed Team",
+      "Global Evangelical Media Team & VOG (Voice of Grace)",
+      "King's TempleChoir","July Chapel","King's Temple Members", "3:16", "Broken Chains", "Wonder Breed Team",
       "Groom's Friends", "Bride's Friends"
     ];
     photoOrder.forEach((label, i) => {
