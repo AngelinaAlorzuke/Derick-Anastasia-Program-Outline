@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "Bride's Siblings", "Groom's Siblings", "NMAH Management & Staff", 
       "GRO Officials Staff & Sub-Contractors", "Global Evangelical Church Members",
       "Global Evangelical Media Team & VOG (Voice of Grace)",
-      "King's TempleChoir","July Chapel","King's Temple Members", "3:16", "Broken Chains", "Wonder Breed Team",
+      "King's Temple Choir","July Chapel","King's Temple Members", "3:16", "Broken Chains", "Wonder Breed Team",
       "Groom's Friends", "Bride's Friends"
     ];
     photoOrder.forEach((label, i) => {
