@@ -194,9 +194,9 @@ document.addEventListener('DOMContentLoaded', () => {
       "Officiating Ministers", "All Pastors Present", "Counselors", "Groom's Parents", "Bride's Mom" , "Both Parents", "Groom's Family", 
       "Bride's Family", "Both Family","Groom's Siblings",
       "Bride's Siblings", "Global Evangelical Church Leaders" , "Global Evangelical Church Members", "Global Evangelical Church Youth Ministry",
-      "Global Evangelical Media Team & VOG (Voice of Grace)", "GRO Oilfield Alliance Ghana and Sub-Contractors","NMAH Lab Staff", 
+      "Global Evangelical Media Team & VOG (Voice of Grace)", "GRO Oilfield Alliance Ghana and Sub-Contractors",
       "King's Temple Choir", "King's Temple Members", "July Chapel","3:16", "Broken Chains", "Wonder Breed Team",
-      "NMAH Management & Staff", "Groom's Friends", "Bride's Friends"
+      "NMAH Lab Staff", "NMAH Management & Staff", "Groom's Friends", "Bride's Friends"
     ];
   photoOrder.forEach((label, i) => {
     const item = document.createElement('div');
