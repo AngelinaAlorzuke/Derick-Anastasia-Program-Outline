@@ -106,11 +106,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------- 4. Gallery Carousel + Lightbox ---------- */
   const carouselTrack = document.getElementById('carouselTrack');
-  const galleryCount = 16; // gallery-01.jpg .. gallery-16.jpg
-  const images = [];
-  for (let i = 1; i <= galleryCount; i++) {
-    images.push(`assets/images/gallery-${String(i).padStart(2,'0')}.jpg`);
-  }
+  // Gallery photos — list each file exactly as it exists in assets/images/,
+  // including its real extension (.jpg or .png). If you add/remove/rename a
+  // photo in that folder, update this list to match, or it won't show up.
+  const images = [
+    'assets/images/gallery-01.png',
+    'assets/images/gallery-02.png',
+    'assets/images/gallery-03.jpg',
+    'assets/images/gallery-04.jpg',
+    'assets/images/gallery-05.png',
+    'assets/images/gallery-06.png',
+    'assets/images/gallery-07.jpg',
+    'assets/images/gallery-08.png',
+    'assets/images/gallery-09.jpg',
+    'assets/images/gallery-10.jpg',
+    'assets/images/gallery-11.png',
+    'assets/images/gallery-12.png'
+  ];
 
   images.forEach((src, i) => {
     const fig = document.createElement('figure');
@@ -179,11 +191,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const photoBadgeGrid = document.getElementById('photoBadgeGrid');
   if (photoBadgeGrid) {
     const photoOrder = [
-      "Officiating Ministers", "Counselors", "Groom's Parents", "Both Parents",
-      "Bride's Parents", "Bride's Family", "Both Family", "Groom's Family",
-      "Bride's Siblings", "Groom's Siblings", "NMAH Management & Staff", 
-      "GRO Officials Staff & Sub-Contractors", "Global Evangelical Church Members",
-      "Global Evangelical Media Team & VOG (Voice of Grace)",
+      "Officiating Ministers", "Counselors", "Groom's Parents", "Bride's Mom" , "Both Parents", "Groom's Family", 
+      "Bride's Family", "Both Family","Groom's Siblings",
+      "Bride's Siblings", "Global Evangelical Church Leaders" , "Global Evangelical Church Members",
+      "Global Evangelical Media Team & VOG (Voice of Grace)", "GRO Oilfield Alliance Ghana and Sub-Contractors", 
+      // "NMAH Management & Staff", 
       "King's Temple Choir","July Chapel","King's Temple Members", "3:16", "Broken Chains", "Wonder Breed Team",
       "Groom's Friends", "Bride's Friends"
     ];
