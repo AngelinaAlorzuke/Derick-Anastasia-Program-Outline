@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
   //    - GOOGLE_FORM_ENTRY_NAME / GOOGLE_FORM_ENTRY_MESSAGE = the entry.### numbers for each field
   // 4. Paste all three values below. Until then, messages still post to the on-page wall,
   //    they just won't be copied to your Google Sheet yet.
-  const GOOGLE_FORM_ACTION_URL = 'https://forms.gle/pXqNWusoWedzfxiL6';
+  const GOOGLE_FORM_ACTION_URL = 'https://forms.gle/2hZLjKigyMBKsyBa6';
   const GOOGLE_FORM_ENTRY_NAME = 'entry.159986993';
   const GOOGLE_FORM_ENTRY_MESSAGE = 'entry.1383773970';
   const GOOGLE_FORM_READY = !GOOGLE_FORM_ACTION_URL.includes('REPLACE') &&
